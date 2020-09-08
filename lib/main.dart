@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Easy Cloud'),
+        title: Text('EasyCloud'),
         centerTitle: true,
         backgroundColor: Colors.red[400],
       ),
@@ -19,10 +19,9 @@ class Home extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-         Expanded(child: Image.asset('Assets/d31b3ee013f9f6b692f359d2478bb802.jpg'),
+         Expanded(child: Image.asset('Assets/93aa442b744a965ca0a2d21efc8560ef.jpg'),
          flex: 3
          ),
-
         Expanded(
           flex: 1,
           child: Container(
