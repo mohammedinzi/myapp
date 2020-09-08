@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:myapp/drawer.dart';
 
 void main() => runApp(MaterialApp(
   home:Home()
@@ -15,6 +16,7 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[400],
       ),
+      drawer: MyDrawer(),
       body: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.start,
